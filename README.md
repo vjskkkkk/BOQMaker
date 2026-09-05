@@ -5,6 +5,7 @@ area, get the costing workbook with overheads and margins, approve, and issue th
 
 - Plan and architecture: [`docs/PLAN.md`](docs/PLAN.md)
 - Pending decisions: [`docs/OPEN_QUESTIONS.md`](docs/OPEN_QUESTIONS.md)
+- Continuing the build in a new session: [`docs/HANDOFF.md`](docs/HANDOFF.md)
 - Source material to supply: [`inputs/README.md`](inputs/README.md)
 - Conventions for contributors/agents: [`CLAUDE.md`](CLAUDE.md)
 

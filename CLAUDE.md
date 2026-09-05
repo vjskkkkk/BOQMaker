@@ -1,7 +1,11 @@
 # Koochie Sports BOQ Builder — working conventions
 
-Read `docs/PLAN.md` first. It is the specification. `docs/OPEN_QUESTIONS.md` lists decisions still pending and the
+Read `docs/PLAN.md` first. It is the specification. `docs/HANDOFF.md` carries the original brief and session history. `docs/OPEN_QUESTIONS.md` lists decisions still pending and the
 defaults to use meanwhile. `inputs/` holds the company's source material (price list, example costing, branding).
+
+## Reference project
+The existing Koochie CRM lives in the sibling folder `../yourcrm` on the owner's machine. Its wrangler config and
+deploy workflow are the house conventions for Cloudflare hosting; match them unless `docs/PLAN.md` says otherwise.
 
 ## Stack
 Cloudflare Worker (Hono, TypeScript) + Static Assets serving a Vite/React/Tailwind SPA; D1 via Drizzle; R2 for files;
